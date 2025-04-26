@@ -1,3 +1,4 @@
+
 #include <iostream>
 using namespace std;//не было использовано прсотранство имён, хоят писали cout
 int main() {
@@ -27,4 +28,3 @@ int main() {
     cout << endl;
     
     return 0;
-}
