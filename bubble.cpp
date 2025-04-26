@@ -1,12 +1,12 @@
 #include <iostream>
-
+using namespace std;//добавил прсотранство имён, чтобы работал cout
 int main() {
     int arr[] = {64, 34, 34, 25, 61, 12, 22, 11, 90, 42, 99};
     int n = sizeof(arr)/sizeof(arr[0]);
     
     cout << "Original: ";
     for (int i = 0; i < n; i++) {
-        cout << arr[i << " ";
+        cout << arr[i] << " ";//закрыл скобку массива 
     }
     cout << endl;
     
@@ -20,7 +20,7 @@ int main() {
         }
     }
     
-    cout < "Output: ";
+    cout << "Output: ";//не хватало <
     for (int i = 0; i < n; i++) {
         cout << arr[i] << " ";
     }
